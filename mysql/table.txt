@@ -1,0 +1,10 @@
+CREATE TABLE `gswa_info` (
+  `id`  int(255) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `profession` varchar(255) NOT NULL,
+  `university` varchar(255) NOT NULL,
+  `mobile` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;

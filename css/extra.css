@@ -1,0 +1,300 @@
+/*----- GSWA  Custom Style -----*/
+.gswa-header {
+    box-shadow: 0px 2px 6px 2px #f1f1f1;
+  }
+  .gswa-header .navbar-brand {
+    background: #3bd28e;
+    /* background: linear-gradient(#53E394, #27CA84); */
+    padding: 0 10px 0 20px;
+  }
+  .gswa-header .triangle {
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 75px 30px 0 0;
+    border-color: #3bd28e transparent transparent transparent;
+  }
+  .gswa-whoweare {
+    background: #f3f7fa;
+    padding: 50px 0;
+    text-align: center;
+    height: 400px;
+  }
+  .gswa-whatwedo {
+    padding: 50px 0;
+    text-align: center;
+    height: 400px;
+  }
+  .gswa-members {
+    padding: 35px 0;
+    color: #a2adb4;
+  }
+  .gswa-member {
+    text-align: center;
+    padding: 10px;
+  }
+  .gswa-member-inner {
+    padding: 25px 0;
+    max-width: 250px;
+    margin: 0 auto;
+    border: 1px solid #f1f1f1;
+    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); */
+  }
+  .gswa-member-details {
+    padding: 30px 0;
+  }
+  .gswa-member h5 {
+    color: #374049;
+  }
+  .gswa-member h6 {
+    color: #5c6872;
+  }
+  .gswa-member img {
+    border-radius: 999px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  .gswa-events {
+    padding: 30px 0;
+  }
+  .gswa-event-bulet {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 999px;
+    background: #fff;
+    border: 3px solid #00cc66;
+    left: -8px;
+    top: 23px;
+  }
+  .gswa-event-date-left {
+    text-align: right;
+    border-right: 3px solid #00cc66;
+    padding: 23px;
+  }
+  .gswa-event-date-right {
+    position: relative;
+    text-align: left;
+    padding: 23px 23px 0 23px;
+  }
+  .gswa-event-title-left {
+    text-align: right;
+    border-right: 3px solid #00cc66;
+    padding: 23px;
+  }
+  .gswa-event-title-right {
+    position: relative;
+    text-align: left;
+    padding: 23px 23px 0 23px;
+  }
+  .gswa-event-title-left p,
+  .gswa-event-title-right p {
+    background: #f1f1f1;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 15px;
+  }
+  .gswa-exec-committee {
+    padding: 30px 0;
+  }
+  .gswa-exec-committee-member {
+    height: 50px;
+  }
+  .gswa-exec-committee-block {
+    padding: 15px;
+    border: 1px solid #f1f1f1;
+    margin-top: 5px;
+    box-shadow: 1px 1px 4px 0px #f3f3f3;
+  }
+  .gswa-exec-committee-member img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+  }
+  .gswa-exec-committee-member p {
+    padding: 5px;
+    float: left;
+    color: #a2adb4;
+  }
+  .gswa-exec-committee-member p strong {
+    color: #374049;
+  }
+  .gswa-gallery {
+    padding: 30px 0;
+  }
+  .gswa-gallery-box {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* 3:2 Aspect Ratio */
+    overflow: hidden;
+  }
+  .gswa-gallery-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .gswa-gallery-box .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: #3bd28e;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+  }
+  .gswa-gallery-box:hover .text {
+    padding: 20px;
+    height: 100%;
+  }
+  .gswa-contact {
+    padding: 30px 0;
+  }
+  .gswa-contact h3 {
+    color: #374049;
+  }
+  .gswa-contact p {
+    color: #a2adb4;
+  }
+  .gswa-sample-page {
+    color: #a2adb4;
+    padding: 30px 0;
+  }
+  .gswa-sample-page p {
+    color: #a2adb4;
+  }
+  .gswa-page-description {
+    color: #a2adb4;
+    padding: 0 100px 30px 100px;
+    text-align: center;
+  }
+  .gswa-footer {
+    background: #1c2d4a;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+  }
+  .gswa-footer p {
+    padding: 0;
+  }
+  .gwsa-footer .list-online {
+    padding: 20px 0;
+  }
+  .gswa-footer h5 {
+    color: #00cc66;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      height: 50px;
+      line-height: 50px;
+    }
+    .navbar-brand {
+      line-height: inherit;
+    }
+    .gswa-header .triangle {
+      border-width: 50px 25px 0 0;
+    }
+    .navbar-icon {
+      display: inline-block;
+      *display: inline;
+      line-height: inherit;
+      float: right;
+      color: #fff;
+      margin-right: 20px;
+      font-size: 20px;
+    }
+    .navbar-menu {
+      display: none !important;
+      max-height: 0px;
+      opacity: 0;
+      width: 100%;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-menu li {
+      position: relative;
+      display: block;
+      text-align: center;
+      margin: 0;
+    }
+    .navbar-menu li ul {
+      margin: 0%;
+      left: 0;
+      right: 0;
+      width: 100% !important;
+      display: block !important;
+      position: relative !important;
+      box-shadow: none;
+    }
+    .navbar-menu li a {
+      color: #a2adb4;
+    }
+    .navbar-menu li a:hover {
+      color: #fff;
+    }
+    .navbar-menu li:hover {
+      background: #3bd28e;
+    }
+  
+    .navbar-menu.show {
+      max-height: 1000px;
+      display: block !important;
+      overflow: auto;
+      opacity: 1;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-menu.hide {
+      /* display: none !important; */
+      max-height: 0px;
+      opacity: 0;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .slider .prev {
+      position: absolute;
+      left: 0px;
+      height: 20px;
+      width: 20px;
+      -webkit-transform: skew(0deg);
+      -moz-transform: skew(0deg);
+        -o-transform: skew(0deg);
+           transform: skew(0deg);
+    }
+    .slider .next {
+      position: absolute;
+      right: 0px;
+      height: 20px;
+      width: 20px;
+      transform: none;
+      top: 30%;
+    }
+    .slider .prev i{transform: none;font-size: inherit;display: inline-block;text-align: center;padding: 0;}
+    .slider .next i{transform: none;font-size: inherit;display: inline-block;text-align: center;padding: 0;}
+    .gswa-page-description {
+      padding: 30px 8px;
+    }
+  }
+  
